@@ -14,13 +14,13 @@
 		80C1A6D41991CDA40063D7AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C1A6D31991CDA40063D7AD /* main.m */; };
 		80C1A6D81991CDA40063D7AD /* FCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C1A6D71991CDA40063D7AD /* FCAppDelegate.m */; };
 		80C1A6DB1991CDA40063D7AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C1A6D91991CDA40063D7AD /* Main.storyboard */; };
-		80C1A6DE1991CDA40063D7AD /* FCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C1A6DD1991CDA40063D7AD /* FCViewController.m */; };
 		80C1A6E01991CDA40063D7AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C1A6DF1991CDA40063D7AD /* Images.xcassets */; };
 		80C1A6E71991CDA40063D7AD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C1A6E61991CDA40063D7AD /* XCTest.framework */; };
 		80C1A6E81991CDA40063D7AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C1A6C71991CDA40063D7AD /* Foundation.framework */; };
 		80C1A6E91991CDA40063D7AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C1A6CB1991CDA40063D7AD /* UIKit.framework */; };
 		80C1A6F11991CDA40063D7AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80C1A6EF1991CDA40063D7AD /* InfoPlist.strings */; };
 		80C1A6F31991CDA40063D7AD /* UdemyChallenge4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C1A6F21991CDA40063D7AD /* UdemyChallenge4Tests.m */; };
+		80C1A6FE1991D1190063D7AD /* FCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C1A6FD1991D1190063D7AD /* FCTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		80C1A6D61991CDA40063D7AD /* FCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCAppDelegate.h; sourceTree = "<group>"; };
 		80C1A6D71991CDA40063D7AD /* FCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCAppDelegate.m; sourceTree = "<group>"; };
 		80C1A6DA1991CDA40063D7AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		80C1A6DC1991CDA40063D7AD /* FCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCViewController.h; sourceTree = "<group>"; };
-		80C1A6DD1991CDA40063D7AD /* FCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCViewController.m; sourceTree = "<group>"; };
 		80C1A6DF1991CDA40063D7AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		80C1A6E51991CDA40063D7AD /* UdemyChallenge4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdemyChallenge4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C1A6E61991CDA40063D7AD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		80C1A6EE1991CDA40063D7AD /* UdemyChallenge4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UdemyChallenge4Tests-Info.plist"; sourceTree = "<group>"; };
 		80C1A6F01991CDA40063D7AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		80C1A6F21991CDA40063D7AD /* UdemyChallenge4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UdemyChallenge4Tests.m; sourceTree = "<group>"; };
+		80C1A6FC1991D1190063D7AD /* FCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCTableViewController.h; sourceTree = "<group>"; };
+		80C1A6FD1991D1190063D7AD /* FCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				80C1A6D61991CDA40063D7AD /* FCAppDelegate.h */,
 				80C1A6D71991CDA40063D7AD /* FCAppDelegate.m */,
 				80C1A6D91991CDA40063D7AD /* Main.storyboard */,
-				80C1A6DC1991CDA40063D7AD /* FCViewController.h */,
-				80C1A6DD1991CDA40063D7AD /* FCViewController.m */,
+				80C1A6FC1991D1190063D7AD /* FCTableViewController.h */,
+				80C1A6FD1991D1190063D7AD /* FCTableViewController.m */,
 				80C1A6DF1991CDA40063D7AD /* Images.xcassets */,
 				80C1A6CE1991CDA40063D7AD /* Supporting Files */,
 			);
@@ -251,7 +251,7 @@
 			files = (
 				80C1A6D41991CDA40063D7AD /* main.m in Sources */,
 				80C1A6D81991CDA40063D7AD /* FCAppDelegate.m in Sources */,
-				80C1A6DE1991CDA40063D7AD /* FCViewController.m in Sources */,
+				80C1A6FE1991D1190063D7AD /* FCTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
